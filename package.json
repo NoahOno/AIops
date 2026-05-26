@@ -1,0 +1,22 @@
+{
+  "name": "mcp-disk-space",
+  "version": "1.0.0",
+  "description": "MCP server for Linux disk space operations - 磁盘空间排查工具集",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-disk-space": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
